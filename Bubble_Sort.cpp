@@ -8,7 +8,7 @@ int n;
 void input(){ //prosedur input
     int d;
     while (true){
-        cout << "Masukkan banyaknya elemen pada aray: ";
+        cout << "Masukkan banyaknya elemen pada array maksimal 20: ";
         cin >> n;
         if (n <= 20){
             break;
